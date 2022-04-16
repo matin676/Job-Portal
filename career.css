@@ -1,0 +1,179 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.container {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('images/job3.jpg');
+    background-size: cover;
+    height: 45vh;
+}
+
+.container .main {
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 250px;
+    color: whitesmoke;
+}
+
+.container .main h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+.container h1 span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.jobs {
+    display: flex;
+    margin: 40px;
+    flex-wrap: wrap !important;
+}
+
+.jobs .jobs_container {
+    border: 2px solid skyblue;
+    width: 29%;
+    margin: 18px;
+    height: auto;
+    border-radius: 15px;
+    background-color: powderblue;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.jobs .jobs_container h1,
+h2 {
+    text-align: center;
+}
+
+.jobs .jobs_container p {
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+
+/* modal css */
+
+.wrapper {
+    background: transparent;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    padding: 15px;
+    border-radius: 0.25rem;
+    color: white;
+}
+
+.wrapper a:hover {
+    background-color: blue;
+    box-sizing: border-box;
+}
+
+.modal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(184, 197, 255, 0.397);
+    transition: all 0.4s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.modal:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modalcontent {
+    position: relative;
+    background: #FFF;
+    width: 500px;
+    max-width: 90%;
+    padding: 1em 2em;
+    border-radius: 15px;
+}
+
+.modalcontent h2 {
+    text-align: left;
+}
+
+.modalclose {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    color: #b0aaff;
+    text-decoration: none;
+    font-size: 36px;
+}
+
+.form_container {
+    padding: 20px;
+    padding-left: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.formlabel {
+    display: block;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+.formcontrol {
+    font-size: 20px;
+    padding-left: 5px;
+    outline: none;
+    border: none;
+    width: 90%;
+    border-left: 4px solid orange;
+    border-radius: 5px;
+}
+
+.formcontrol:hover {
+    border-color: blue;
+}
+
+.form_container button {
+    width: 15%;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    color: blue;
+    background-color: orange;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px black;
+}
+
+.form_container button:hover {
+    border: 2px solid blue;
+}

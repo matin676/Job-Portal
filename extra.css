@@ -1,0 +1,64 @@
+.about_us {
+    width: 75%;
+    padding: 40px;
+}
+
+.about_us h2 {
+    font-size: 35px;
+    padding: 10px;
+    text-align: justify;
+    text-transform: uppercase;
+    color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about_us p {
+    padding: 10px;
+    font-size: 15px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 25px;
+}
+
+
+/* .contact_container {
+    width: 85%;
+    padding-left: 500px;
+} */
+
+.contact_container h2 {
+    font-size: 35px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact_container .g_map {
+    border: 10px solid blueviolet;
+}
+
+.contact_container .contact_content {
+    padding: 20px;
+}
+
+.contact_container .contact_content p {
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 25px;
+}
+
+.contact_container .contact_content p a {
+    text-decoration: none;
+    margin: 10px;
+    color: blueviolet;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact_container .contact_content p a:hover {
+    color: orange;
+}
